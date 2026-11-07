@@ -1,0 +1,37 @@
+{
+  "results": {
+    "EUR": {
+      "matched_snps": 192,
+      "pearson_r": 0.9994228619888579,
+      "mean_absolute_difference": 0.008081197916666673,
+      "rmse": 0.010869192848103806
+    },
+    "AFR": {
+      "matched_snps": 192,
+      "pearson_r": 0.627850187469634,
+      "mean_absolute_difference": 0.17155006250000007,
+      "rmse": 0.2672820990721587
+    },
+    "EAS": {
+      "matched_snps": 192,
+      "pearson_r": 0.7590894870760218,
+      "mean_absolute_difference": 0.13810182812500002,
+      "rmse": 0.2332707462628425
+    },
+    "SAS": {
+      "matched_snps": 192,
+      "pearson_r": 0.91922710697379,
+      "mean_absolute_difference": 0.07894886979166667,
+      "rmse": 0.1302149401492206
+    },
+    "AMR": {
+      "matched_snps": 192,
+      "pearson_r": 0.9443998492197372,
+      "mean_absolute_difference": 0.065456703125,
+      "rmse": 0.10610454219798636
+    }
+  },
+  "validation": "All five CLI outputs agree with independent two-pass statistics; Centre/2 conversion checked against original prediction records",
+  "script_sha256": "7a638b72b336d0fdbc5b3b20e0861b76a25ae50990a9d1b7c683dfaa6d7b9f23",
+  "python_version": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:11:29) [Clang 20.1.8 ]"
+}

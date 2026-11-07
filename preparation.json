@@ -1,0 +1,20 @@
+{
+  "selected_snps": 200,
+  "selection": "First 200 PASS biallelic SNPs in VCF order present in both study files, with matching chromosome, position and allele pair; no frequency-similarity selection",
+  "chromosome": "1",
+  "first_position": 752721,
+  "last_position": 1555718,
+  "coordinate_check": "All selected study positions match the b37 reference VCF positions",
+  "study_frequency_source": "LDAK prediction model Centre/2, aligned to association A1; not MAF from the association file",
+  "reference_frequency_source": "VCF EUR_AF/AFR_AF/EAS_AF/SAS_AF/AMR_AF fields; reference table A1=ALT, A2=REF",
+  "reference_identifier_mapping": "Original VCF IDs are missing; assign study rsIDs only after exact chromosome, position and allele-pair matching; see variant_mapping.tsv",
+  "input_prefix_complete_records": {
+    "association": 31542,
+    "prediction": 79317
+  },
+  "sha256": {
+    "1000g.chr1.vcf.gz.part": "bce07f57ac9c3178d00455d15ebb51c2a13cbf57fa804c7227a99842b516d726",
+    "height.assoc.gz.part": "ecbccaa75fa831e5cc3331b3ec895e2449ea1e53125f036b8f92c8b4af2f88b7",
+    "height.effects.gz.part": "40f892af4b3009de82c3fb15839532c6c95bb7aacd19830090f1aec779922931"
+  }
+}
